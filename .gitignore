@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+
+# IDE
+.vscode/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Game generated files
+saves/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
