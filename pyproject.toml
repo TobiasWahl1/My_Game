@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "my-game"
+version = "0.1.0"
+description = "A fantasy pixel art RPG"
+authors = [
+    {name = "Tobias Wahl"}
+]
+requires-python = ">=3.12"
+dependencies = []
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
